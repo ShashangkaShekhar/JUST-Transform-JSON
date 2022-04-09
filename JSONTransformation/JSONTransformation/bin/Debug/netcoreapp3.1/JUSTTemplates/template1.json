@@ -1,0 +1,28 @@
+{
+  "data": {
+    "squadName": "#valueof($.squadName)",
+    "homeTown": "#valueof($.homeTown)",
+    "isactive": "#valueof($.active)",
+    "teams": {
+      "#loop($.members,)": {
+        "fullname": "#currentvalueatpath($.name)",
+        "firstname": "#substring(#currentvalueatpath($.name),0,8)",
+        "age": "#currentvalueatpath($.age)",
+        "identity": "#ifcondition(#existsandnotempty($.secretIdentity),true,#currentvalueatpath($.secretIdentity),#valueof(null))",
+        "powers": {
+          "#loop($.powers)": {
+            "CurrentIndex": "#currentindex()",
+            "title": "#currentvalue()",
+            "IsLast": "#ifcondition(#currentindex(),#lastindex(),yes,no)",
+            "LastValue": "#lastvalue()"
+          }
+        },
+        "personalInformation": {
+          "addressline1": null,
+          "addressline2": null,
+          "cell": null
+        }
+      }
+    }
+  }
+}

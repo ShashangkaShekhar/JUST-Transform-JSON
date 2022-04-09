@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "popup": {
+      "menuitem": [
+        {
+          "value": "Open",
+          "onclick": "OpenDoc()"
+        },
+        {
+          "value": "Close",
+          "onclick": "CloseDoc()"
+        }
+      ],
+      "submenuitem": "CloseSession()"
+    }
+  }
+}

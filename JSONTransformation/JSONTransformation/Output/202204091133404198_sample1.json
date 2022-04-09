@@ -1,0 +1,114 @@
+{
+  "data": {
+    "squadName": "Super hero squad",
+    "homeTown": "Metro City",
+    "isactive": true,
+    "teams": [
+      {
+        "fullname": "Molecule Man",
+        "firstname": "Molecule",
+        "age": "29",
+        "identity": "Dan Jukes",
+        "powers": [
+          {
+            "CurrentIndex": 0,
+            "title": "Radiation resistance",
+            "IsLast": "no",
+            "LastValue": "Radiation blast"
+          },
+          {
+            "CurrentIndex": 1,
+            "title": "Turning tiny",
+            "IsLast": "no",
+            "LastValue": "Radiation blast"
+          },
+          {
+            "CurrentIndex": 2,
+            "title": "Radiation blast",
+            "IsLast": "yes",
+            "LastValue": "Radiation blast"
+          }
+        ],
+        "personalInformation": {
+          "addressline1": null,
+          "addressline2": null,
+          "cell": null
+        }
+      },
+      {
+        "fullname": "Madame Uppercut",
+        "firstname": "Madame U",
+        "age": "39",
+        "identity": "Jane Wilson",
+        "powers": [
+          {
+            "CurrentIndex": 0,
+            "title": "Million tonne punch",
+            "IsLast": "no",
+            "LastValue": "Superhuman reflexes"
+          },
+          {
+            "CurrentIndex": 1,
+            "title": "Damage resistance",
+            "IsLast": "no",
+            "LastValue": "Superhuman reflexes"
+          },
+          {
+            "CurrentIndex": 2,
+            "title": "Superhuman reflexes",
+            "IsLast": "yes",
+            "LastValue": "Superhuman reflexes"
+          }
+        ],
+        "personalInformation": {
+          "addressline1": null,
+          "addressline2": null,
+          "cell": null
+        }
+      },
+      {
+        "fullname": "Eternal Flame",
+        "firstname": "Eternal ",
+        "age": 34,
+        "identity": null,
+        "powers": [
+          {
+            "CurrentIndex": 0,
+            "title": "Immortality",
+            "IsLast": "no",
+            "LastValue": "Interdimensional travel"
+          },
+          {
+            "CurrentIndex": 1,
+            "title": "Heat Immunity",
+            "IsLast": "no",
+            "LastValue": "Interdimensional travel"
+          },
+          {
+            "CurrentIndex": 2,
+            "title": "Inferno",
+            "IsLast": "no",
+            "LastValue": "Interdimensional travel"
+          },
+          {
+            "CurrentIndex": 3,
+            "title": "Teleportation",
+            "IsLast": "no",
+            "LastValue": "Interdimensional travel"
+          },
+          {
+            "CurrentIndex": 4,
+            "title": "Interdimensional travel",
+            "IsLast": "yes",
+            "LastValue": "Interdimensional travel"
+          }
+        ],
+        "personalInformation": {
+          "addressline1": null,
+          "addressline2": null,
+          "cell": null
+        }
+      }
+    ]
+  }
+}
